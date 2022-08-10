@@ -1,0 +1,88 @@
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-size:50px;
+    text-align: left;
+   }
+   
+   h2 {
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-style: italic;
+       font-size: x-small;
+       text-align:left;
+   }
+   
+   h4 {
+   quotes: auto;display:contents;display: block;
+   font-family:'Times New Roman', Times, serif;
+   font-style: oblique;
+   font-size: medium;
+   
+   }
+   
+   h1,h2 {
+       line-height: 10%;
+       
+   }
+   body {
+       background-color:rgb(100, 152, 180)
+   }
+   
+   #main-content {
+       position: relative;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       border: 1px solid #333;
+       background: rgba(255, 255, 255, 0.3);
+       padding: 15px 20px 18px 18px;
+       border-radius: 5px;
+       box-shadow: 2px 5px 5px #333;
+       box-sizing: border-box;
+       -moz-box-align: center;
+       align-self: center;
+       
+     }
+   div {
+       box-sizing: content-box;
+       margin: auto;
+         
+   }
+   button {
+       font-size: 8px;
+       size: 0em;
+     }
+   
+     div{ box-sizing: border-box; -webkit-box-sizing: border-box; }
+   
+   .contentquote {
+   text-align: center;
+     font-family: 'Roboto Slab', serif;
+     font-size: 18px;
+     width: 350px;
+     height: 175px;
+     padding: 15px 45px 20px 40px;
+     background: #78a8c6; 
+     background-position: center;
+     background-image: 0;
+     color: #1a1919;
+     position:relative;
+   }
+   .contentquote {display: inline-block; margin: 2px; }
+   .contentquote p:before{ color: #f3f3ec; font-size: 2em; position:relative; }
+   .contentquote p:after{ color: #f5f5eb; font-size: 2em; position: absolute; }
+   .contentquote p:before{ left: -30px; top: -20px; content: "“"; }
+   .contentquote p:after{ bottom: -10px; right: 25px; content: "”"; }
+   .contentquote footer{
+       font-size: x-small;
+       text-align: center;
+   }
+   .contentquote h3{ position: absolute; font-size:x-large; right: 25px; bottom: 50px; font: weight 500px; }
+   .contentquote h3{ position: absolute; font-size:x-large; left: 25px; top: 15px; font: weight 500px; }
+   #character-container .comment{
+       display:none;
+   }
+   #character-container .show-comments .comment {
+       display:block;
+   }
